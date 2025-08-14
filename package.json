@@ -43,7 +43,7 @@
     "next": "15.4.4",
     "payload": "^3.50.0-internal.ca62628",
     "react": "19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@playwright/test": "1.54.1",
