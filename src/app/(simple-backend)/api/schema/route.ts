@@ -23,7 +23,8 @@ export const GET = async (_request: Request) => {
     const schema = JSON.parse(schemaData)
 
     return Response.json(schema)
-  } catch (_error) {
+  } catch (error) {
+    console.error('[jbaifigma] Failed to read schema', error)
     return Response.json({ error: 'Failed to read schema', success: false }, { status: 500 })
   }
 }
